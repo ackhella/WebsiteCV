@@ -1,0 +1,187 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    color: #40514E;
+}
+
+nav{
+    background-color: #ddfff6;
+    padding: 10px 0 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+nav img{
+    width: 30px;
+    margin-right: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    color: #11999E;
+}
+.navigation{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    margin-right: 80px;
+}
+a{
+    text-decoration: none;
+    color: #40514E;
+}
+.link-project{
+    color: #00599A;
+}
+a:hover{
+    color: #11999E;
+}
+
+.profile, .contact-me{width: 50%; margin: 0 auto;}
+header{margin: 0;}
+h2{
+    font-size: 2rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{color: #11999E; margin: 0;}
+p{margin: 0; line-height: 2;}
+
+h1{
+    padding-top: 100px; 
+    font-family: 'Caveat', cursive; 
+    font-size: 50px; 
+    color: #66BFBF;
+    line-height: 2;
+    margin: 0;
+}
+header p{margin: 40px 0; font-size: 20px;}
+header h2 span{
+    text-decoration: underline 1.5px gray;
+
+}
+header{
+    background-color: rgb(245, 245, 245);
+    position: relative;
+}
+.first-cloud, .second-cloud, .first-cloud2{
+    width: 120px;
+    position: absolute;
+}
+.first-cloud{right: 100px; top: 200px;}
+.second-cloud{left: 100px; top: 300px}
+.first-cloud2{left: 300px; top: 100px; width: 100px;}
+
+.gif{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.middle-container hr{
+    width: 5%;
+    border-style: none;
+    border-top: dotted;
+    color: lightgray;
+    border-width: 5px;
+    margin: 20px auto;
+}
+.hello{margin-bottom: 20px;}
+.h2{margin-top: 50px; color: blueviolet; font-weight: bold;}
+.photo{
+    margin: 50px auto;
+    width: 300px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+.skill-bar {
+    background-color: #ddd;
+    height: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 50%;
+    transition: transform 0.2s;
+    margin-top: 20px;
+
+}
+.skill-bar:hover {
+    transform: scale(1.01); 
+}
+.skill-level {
+    height: 100%;
+    background-color: #11999E;
+    border-radius: 8px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 80px auto 80px auto;
+    text-align: left;
+}
+h2, h3{
+    margin: 0;
+}
+.contact-me h2, .contact-me h3{
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    margin: 40px auto;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+.bottom-container{
+    background-color: #11999E;
+    color: #ffffff;
+    padding: 50px 0 20px;
+}
+.bottom-container a{
+    text-decoration: none;
+    color:#2bc4ad;
+    margin: 0 10px;
+}
+.bottom-container a:hover{color:#effffd;}
+.bottom-container p{margin-top: 10px; font-size: 0.75rem;}
+.help{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/545/545679.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: fixed;
+    background-color: #d3fcf2;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    bottom: 40px;
+    right: 40px;
+    z-index: 2;
+}
